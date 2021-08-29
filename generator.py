@@ -22,7 +22,7 @@ def main():
     generate(data)
 
 
-def usr_input_for_reroll():
+def usr_input_for_reroll(data):
     usr_input = input('Reroll number? (-2: exit, -1: all) ')
 
     if platform.system() == 'Windows':
@@ -61,7 +61,7 @@ def generate(data, generated_data={}, usr_input='0'):
         if value[0] != 'skip':
             print(key+'.', value[0]+':', value[1])
 
-    usr_input = usr_input_for_reroll()
+    usr_input = usr_input_for_reroll(data)
 
     generate(data, generated_data, usr_input)
 
