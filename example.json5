@@ -1,56 +1,22 @@
 {
-    "Classification": [
-        "Reptile",
-            // Dry scaly skin, lay eggs on dry land
-            // Snake, Crocodile, Dinosour
-        "Bird",
-            // Feather, Wings, beak, lay eggs
-            // Crow, Swan
-        "Fish",
-            // Scales, gills, cold blooded
-            // Shark, Tuna
-        "Mammal",
-            // Fur or hair, young feed on milk, warm blooded
-            // Human, Cow
-        "Amphibians",
-            // Moist slimy skin, lay eggs in water, cold blooded
-            // Frog, newt
-        "Flatworm",
-            // Simple and soft bodied
-            // Tapeworm, Flukes
-        "Annelid Worm",
-            // Segmented bodies
-            // Earthworm, Leech
-        "Echinoderms",
-            // Spniy sea creatures
-            // Starfish, sea urchin
-        "Coelenterates",
-            // Soft body, stinging cells
-            // Jellyfish, sea anemone
-        "Molluscs",
-            // Soft body, most have shell
-            // Snail, limpet
-        "Arachnids",
-            // Eight legs, two body parts, no antennae
-            // Spider, Scorpion
-        "Crustaceans",
-            // Mostly sea creatures, Many kegs, two sets of antennae
-            // Crab, lobster
-        "Insects",
-            // Wings, six legs, three body parts, a set of antennae
-            // Bee, ladybird
-        "Myriapods",
-            // Many legs, many body segments
-            // Centipede, Millipede
+    "Main Trait": [
+        "Claws",
+        "Wings",
     ],
-    "Type if Classification is Reptile": [
-        "Turtle",
-        "Skink",
-        "Tortoise",
-        "Crocodile",
-        "Snake",
-        "Lizard",
-        "Chameleon",
-        "Gecko",
+    "Claws made of if Main Trait is Claws": [
+        "Iron",
+        "Steel",
+        "Keratin"
+    ],
+    "Wings made of if Main Trait is Wings": [
+        "Feather",
+        "Leather"
+    ],
+    "Chicken if Wings made of is Feather": [
+        "Yes"
+    ],
+    "Satisfied": [
+        "Yes",
+        "No"
     ]
 }
