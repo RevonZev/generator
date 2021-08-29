@@ -1,0 +1,7 @@
+*.json5
+*.json
+
+!example.json5
+
+.vscode/
+*.code-workspace
